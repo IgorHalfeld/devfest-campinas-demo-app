@@ -2,7 +2,7 @@
   <h2 align="center">DevFest Demo App</h2>
   <p align="center">Prototyping purposes</p>
   <p align="center">
-    <img align="center" width="500" src="./demo/demo.gif" alt="gif">
+    <img align="center" src="./demo/demo.gif" alt="gif">
   </p>
 </p>
 
