@@ -1,9 +1,14 @@
-## Simple todo app in vue-native
+<p align="center">
+  <h2 align="center">DevFest Demo App</h2>
+  <p align="center">Prototyping purposes</p>
+  <p align="center">
+    <img align="center" width="500" src="./demo/demo.gif" alt="gif">
+  </p>
+</p>
 
-<img alt="Todo app in vue-native" src="gif/vueTodoGif.gif" width="260" height="400" />
+### Setup
 
-### Installation step
-• ```git clone git@github.com:ankitsinghania94/vue-native-todo-app.git```.<br />
-• Navigate to project directory and do ```npm install```.<br />
-• ```npm start``` to run the project.<br />
-Similiarly you can do ```npm run ios``` for building in simulator.
+```
+$ npm install
+$ npm start
+```

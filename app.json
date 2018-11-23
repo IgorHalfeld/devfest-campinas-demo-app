@@ -1,5 +1,13 @@
 {
   "expo": {
+    "name": "DevFestCampinas",
+    "description": "DevFest campinas app demo",
+    "slug": "devfest-campinas",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "sdkVersion": "27.0.0"
   }
 }
