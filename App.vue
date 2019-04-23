@@ -3,9 +3,7 @@
     <view class="ContainerHeader">
       <text class="ContainerHeaderTitle">Vue.js Brazil Blog App!</text>
     </view>
-    <template>
-      <app-navigation></app-navigation>
-    </template>
+    <app-navigation></app-navigation>
   </view>
 </template>
 
@@ -17,7 +15,8 @@ import PostDetail from './src/PostDetail'
 const routes = { PostList, PostDetail }
 const AppNavigation = StackNavigator(routes, {
   initialRouteName: 'PostList',
-  headerMode: 'none'
+  headerMode: 'none',
+  backgroundColor: 'white',
 })
 
 export default {
@@ -32,8 +31,8 @@ export default {
 }
 .ContainerHeader {
   background-color: #57C292;
-  padding-top: 20px;
-  height: 80px;
+  padding-top: 40px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;

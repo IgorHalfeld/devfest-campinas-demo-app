@@ -11,7 +11,7 @@
     </template>
     <template
       v-if="!isLoading">
-      <scroll-view class="ContainerPosts">
+      <scroll-view :style="{ backgroundColor: '#fff' }" class="ContainerPosts">
         <Card
           v-for="(post, index) in posts"
           :item="post"
@@ -63,6 +63,6 @@ export default {
   width: 100%;
 }
 .ContainerPosts {
-  padding: 10px 5px;
+  padding: 20px 5px;
 }
 </style>

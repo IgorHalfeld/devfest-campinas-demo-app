@@ -1,10 +1,12 @@
 <template>
-  <scroll-view :style="{ flex: 1 }">
+  <scroll-view
+    :style="{
+      flex: 1,
+      backgroundColor: '#fff',
+    }">
     <HTMLContainer
       :html="getHTML()"
-      :containerStyle="{
-        padding: 10
-      }"/>
+      :containerStyle="{ padding: 10 }" />
   </scroll-view>
 </template>
 
@@ -26,7 +28,3 @@ export default {
   }
 }
 </script>
-
-<style>
-
-</style>
